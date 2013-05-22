@@ -1,6 +1,12 @@
 #backbone-forms-jam
 
-This repository is a fork of `backbone-form` repository whose purpose is to provide a packaging to [Jam](https://github.com/caolan/jam).
+This repository is a fork of [backbone-forms](https://github.com/powmedia/backbone-forms) repository. The purpose of this fork is to provide for **backbone-forms** a packaging to [Jam](https://github.com/caolan/jam).
+
+It has been [published](http://jamjs.org/packages/#/details/backbone-forms-jam) to the Jam's package repository, so `Backbone.Forms` can be installed simply typing:
+
+```
+$ jam install backbone-forms-jam
+```
 
 #backbone-forms
 
