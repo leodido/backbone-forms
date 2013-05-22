@@ -1,6 +1,6 @@
 {
   "name": "backbone-forms-jam",
-  "description": "A flexible, customisable form framework for Backbone.JS applications.",
+  "description": "A flexible, customisable form framework for Backbone.js applications.",
   "author": {
     "name": "Charles Davison"
   },
@@ -29,5 +29,6 @@
       "deps": ["backbone"],
       "exports": "Backbone.Forms"
     }
-  }
+  },
+  "github": "https://github.com/leodido/backbone-forms-jam"
 }
