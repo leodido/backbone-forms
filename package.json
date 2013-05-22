@@ -1,5 +1,5 @@
 {
-  "name": "backbone-forms",
+  "name": "backbone-forms-jam",
   "description": "A flexible, customisable form framework for Backbone.JS applications.",
   "author": {
     "name": "Charles Davison"
@@ -13,5 +13,21 @@
     "underscore": "latest",
     "uglify-js": "latest"
   },
-  "main": "distribution.amd/backbone-forms.js"
+  "main": "distribution.amd/backbone-forms.js",
+  "keywords": [
+    "package",
+    "jam",
+    "backbone",
+    "forms"
+  ],
+  "jam": {
+    "main": "distribution.amd/backbone-forms.js",
+    "dependencies": {
+      "backbone": ">=1.0.0"
+    },
+    "shim": {
+      "deps": ["backbone"],
+      "exports": "Backbone.Forms"
+    }
+  }
 }
