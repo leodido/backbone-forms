@@ -1,3 +1,7 @@
+#backbone-forms-jam
+
+This repository is a fork of `backbone-form` repository whose purpose is to provide a packaging to [Jam](https://github.com/caolan/jam).
+
 #backbone-forms
 
 A flexible, customisable form framework for Backbone.JS applications.
